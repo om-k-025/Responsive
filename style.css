@@ -1,0 +1,132 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+
+body {
+  background-image: url(Images/bg1.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.nav {
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  font-size: 1.6rem;
+  background-color: rgb(0, 0, 0);
+}
+
+@media only screen and (max-width: 500px) {
+  .nav {
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+}
+
+.nav h1 {
+  color: #A67270;
+}
+
+.nav h1::selection {
+  color: black;
+  background-color: rgb(255, 255, 255);
+}
+
+@media only screen and (max-width: 500px) {
+  .nav h1 {
+    font-size: 2rem;
+  }
+}
+
+.card {
+  display: flex;
+  margin-top: 4rem;
+  margin-left: 9rem;
+}
+
+.card img {
+  margin: 2rem;
+  border-radius: 0.7rem;
+  user-select: none;
+  transition-duration: 1s;
+}
+
+.card img:hover {
+  transform: scale(1.04);
+  box-shadow: 0px 0px 20px 2px black;
+  transition-duration: 0.5s;
+}
+
+@media only screen and (max-width: 500px) {
+  .card {
+    display: inline;
+    margin-left: 0.1rem;
+  }
+
+  .card img {
+    width: 70%;
+    height: 70%;
+    border-radius: 0.7rem;
+    margin-left: 3.8rem;
+  }
+
+  .card img:hover {
+    transform: scale(1.04);
+    box-shadow: 0px 0px 20px 2px black;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .car33 {
+    display: list-item;
+  }
+}
+
+.btn {
+  text-align: center;
+  padding: 2rem;
+}
+
+.btn button {
+  padding: 0.7rem;
+  border-radius: 0.8em;
+  border: 0cap;
+  color: rgb(255, 255, 255);
+  background-color: black;
+  transition-duration: 1s;
+  user-select: none;
+}
+
+.btn button:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+  box-shadow: 0rem 0rem 2rem 0.5rem #af7d73;
+  transition-duration: 0.5s;
+}
+
+.para {
+  background-color: rgb(0, 0, 0);
+}
+
+.para p {
+  text-align: center;
+  color: white;
+  padding: 2rem;
+  margin-left: 20rem;
+  margin-right: 20rem;
+}
+
+.para p::selection {
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+}
+
+@media only screen and (max-width: 500px) {
+  .para p {
+    text-align: center;
+    padding: 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+}
