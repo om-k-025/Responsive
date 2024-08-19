@@ -1,4 +1,5 @@
 # Responsive
+
 Hii, I'm Om Kale in this project I create a mini webpage using only "HTML, CSS and JavaScript".
 The special part of this project that is it is a Responsive. I know that is not special but this my first responsive design I ever make.
 In this I used "Media Queries" to make it responsive.
